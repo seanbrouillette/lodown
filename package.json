@@ -1,0 +1,29 @@
+{
+  "name": "lodown-the_best_sean",
+  "version": "1.0.0",
+  "description": "this is library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -r spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanbrouillette/lodown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanbrouillette/lodown/issues"
+  },
+  "homepage": "https://github.com/seanbrouillette/lodown#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "i": "^0.3.6",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.0.2",
+    "sinon": "^7.3.1"
+  }
+}
